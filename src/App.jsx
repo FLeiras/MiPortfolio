@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 import Nav from "./components/nav/Nav";
 
 function WebContent() {
@@ -8,8 +9,8 @@ function WebContent() {
       <div className="bg-circle2"></div>
 
       <Header />
-
       <Nav />
+      <Home />
     </>
   );
 }

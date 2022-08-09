@@ -1,5 +1,6 @@
 import "./Home.css";
 import img from "../props/img2.jpg";
+import Button from "../button/Button";
 import { BsMouse } from "react-icons/bs";
 
 function Home() {
@@ -36,6 +37,8 @@ function Home() {
           temporibus?
         </p>
       </h2>
+
+      <Button />
     </div>
   );
 }
