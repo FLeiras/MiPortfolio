@@ -15,4 +15,4 @@ function WebContent() {
   );
 }
 
-//export default WebContent;
+export default WebContent;

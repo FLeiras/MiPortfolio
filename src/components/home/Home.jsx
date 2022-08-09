@@ -2,8 +2,16 @@ import "./Home.css";
 import img from "../props/img2.jpg";
 import Button from "../button/Button";
 import { BsMouse } from "react-icons/bs";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    const toggle = document.querySelector(".main-img");
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("active");
+    });
+  });
+
   return (
     <div id="home" className="container home-container">
       <div className="logo">
@@ -42,10 +50,5 @@ function Home() {
     </div>
   );
 }
-
-const toggle = document.querySelector(".main-img");
-toggle.addEventListener("click", () => {
-  toggle.classList.toggle("active");
-});
 
 export default Home;

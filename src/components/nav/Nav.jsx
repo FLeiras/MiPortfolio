@@ -2,7 +2,7 @@ import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { TiGroupOutline } from "react-icons/ti";
-import { BiMessasgeRoundedDots } from "react-icons/bi";
+import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 function Nav() {
@@ -18,7 +18,7 @@ function Nav() {
         <TiGroupOutline className="icon" />
       </a>
       <a href="#contacto">
-        <BiMessasgeRoundedDots className="icon" />
+        <BiMessageRoundedDots className="icon" />
       </a>
       <a href="#footer">
         <BsArrowDownCircle className="icon" />
