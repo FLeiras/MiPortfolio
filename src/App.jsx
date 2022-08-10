@@ -4,6 +4,7 @@ import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Proyects from "./components/proyects/Proyects";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function WebContent() {
   return (
@@ -17,6 +18,7 @@ function WebContent() {
       <About />
       <Proyects />
       <Contact />
+      <Footer />
     </>
   );
 }
