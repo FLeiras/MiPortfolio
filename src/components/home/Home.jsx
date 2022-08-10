@@ -2,20 +2,20 @@ import "./Home.css";
 import img from "../props/img2.jpg";
 import Button from "../button/Button";
 import { BsMouse } from "react-icons/bs";
-import { useEffect } from "react";
+import { useState } from "react";
 
 function Home() {
-  useEffect(() => {
-    const toggle = document.querySelector(".main-img");
-    toggle.addEventListener("click", () => {
-      toggle.classList.toggle("active");
-    });
-  });
+  const [toogle, setToogle] = useState(false);
+
+  function handleClick() {
+    setToogle(!toogle);
+    console.log(toogle);
+  }
 
   return (
     <div id="home" className="container home-container">
-      <div className="logo">
-        <div className="main-img">
+      <div onClick={handleClick} className="logo">
+        <div className={!toogle ? "main-img" : "main-img active"}>
           <span className="circle"></span>
           <span className="circle"></span>
           <span className="circle"></span>

@@ -1,0 +1,28 @@
+.proyect-txt {
+  font-size: 20px;
+  top: 10px;
+  font-weight: 100;
+}
+
+.proyects-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.proyects-container .proyect {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.014);
+  padding: 20px;
+  border-radius: 50px;
+}

@@ -68,7 +68,7 @@
   height: 100%;
   width: 50%;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .button-container .btn.sec {
@@ -96,7 +96,7 @@
   height: 100%;
   width: 50%;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgba(255, 255, 255, 0.3);
   transition: 0.4s ease;
 }
 
