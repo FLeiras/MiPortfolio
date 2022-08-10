@@ -26,3 +26,56 @@
   padding: 20px;
   border-radius: 50px;
 }
+
+.proyects-container .proyect .proyect-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background: url(../props/proyecto3.png);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid var(--color-sec-light);
+}
+
+.proyects-container .proyect .proyect-info {
+  margin-left: 50px;
+  font-family: "Open Sans";
+  max-width: 50%;
+}
+
+.proyects-container .proyect .proyect-info .name {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.proyects-container .proyect .proyect-info .position {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.proyects-container .proyect .proyect-info .about {
+  margin-top: 40px;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.proyects-container .proyect .proyect-info .contact-member {
+  background: var(--color-sec-light);
+  padding: 17px 35px;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.1s ease;
+}
+
+.proyects-container .proyect .proyect-info .contact-member span {
+  text-transform: capitalize;
+}
+
+.proyects-container .proyect .proyect-info .contact-member:hover {
+  background: transparent;
+  border: 2px solid var(--color-sec-light);
+}
