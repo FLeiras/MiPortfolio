@@ -28,13 +28,13 @@ function Nav() {
       <a href="#home">
         <AiOutlineHome className="icon" />
       </a>
-      <a href="#sobreMi">
+      <a href="#about">
         <AiOutlineUser className="icon" />
       </a>
-      <a href="#members">
+      <a href="#proyects">
         <TiGroupOutline className="icon" />
       </a>
-      <a href="#contacto">
+      <a href="#contact">
         <BiMessageRoundedDots className="icon" />
       </a>
       <a href="#footer">
