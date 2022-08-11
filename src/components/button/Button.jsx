@@ -6,7 +6,7 @@ function Button() {
       <a href="#about" className="btn pri">
         Mas Info
       </a>
-      <a href="#contac" className="btn sec">
+      <a href="#contact" className="btn sec">
         Contactame
       </a>
     </div>
