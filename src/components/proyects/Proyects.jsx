@@ -45,10 +45,11 @@ function Proyects() {
           <h1 className="name">Federico Leiras</h1>
           <h3 className="position">Desarrollo Full-Stack</h3>
           <h4 className="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et
-            animi sunt consequatur totam, sit nisi accusantium repudiandae
-            fugit, reiciendis, dolorem omnis! Explicabo blanditiis magni,
-            dignissimos beatae optio consequatur omnis!
+            SPA(Simple Page Application), donde podras hacer un recorrido por
+            todos los paises del Planeta, los cuales podras ordenarlos segun
+            varios criterios, filtrarlos segun su continente o actividad
+            turistica.Tambien podras crear una actividad turistica para el o los
+            paises que desees.
           </h4>
           <a href="#contact" className="contact-member">
             <span>Contacto</span>
