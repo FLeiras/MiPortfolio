@@ -27,7 +27,17 @@
   border-radius: 50px;
 }
 
-.proyects-container .proyect .proyect-img {
+.proyects-container .proyect .proyect-img1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background: url(../props/proyecto1.png);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid var(--color-sec-light);
+}
+
+.proyects-container .proyect .proyect-img3 {
   height: 300px;
   width: 300px;
   border-radius: 40px;
@@ -78,4 +88,8 @@
 .proyects-container .proyect .proyect-info .contact-member:hover {
   background: transparent;
   border: 2px solid var(--color-sec-light);
+}
+
+.about {
+  letter-spacing: 2px;
 }
