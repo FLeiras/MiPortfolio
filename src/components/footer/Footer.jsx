@@ -17,16 +17,28 @@ function Footer() {
         </a>
       </h1>
       <div className="social-links">
-        <a href="https://www.instagram.com/fedeleiras/" target="_blank">
+        <a
+          href="https://www.instagram.com/fedeleiras/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsInstagram className="social" />
         </a>
-        <a href="https://www.facebook.com/federico.leiras/" target="_blank">
+        <a
+          href="https://www.facebook.com/federico.leiras/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFacebookF className="social" />
         </a>
-        <a href="https://github.com/FLeiras" target="_blank">
+        <a href="https://github.com/FLeiras" target="_blank" rel="noreferrer">
           <TiSocialGithub className="social" />
         </a>
-        <a href="https://www.linkedin.com/in/fede-leiras/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/fede-leiras/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <TiSocialLinkedin className="social" />
         </a>
       </div>

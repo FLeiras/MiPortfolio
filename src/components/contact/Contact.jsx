@@ -11,6 +11,8 @@ function Contact() {
         <a
           href="https://api.whatsapp.com/send?phone=1166067670"
           className="contact whatsapp"
+          target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineWhatsApp className="icon" />
           <h2>
@@ -21,6 +23,7 @@ function Contact() {
           href="https://www.linkedin.com/in/fede-leiras/"
           className="contact linkedin"
           target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineLinkedin className="icon" />
           <h2>
