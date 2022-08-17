@@ -8,7 +8,10 @@ function Contact() {
     <div id="contact" className="container contact-container">
       <h1>Contactame</h1>
       <div className="contact-links">
-        <a href="" className="contact whatsapp">
+        <a
+          href="https://api.whatsapp.com/send?phone=1166067670"
+          className="contact whatsapp"
+        >
           <AiOutlineWhatsApp className="icon" />
           <h2>
             whatsapp <span>+54 9 11-6606-7670</span>
