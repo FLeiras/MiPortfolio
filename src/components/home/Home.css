@@ -45,9 +45,8 @@
 
 .home-container .logo .circle {
   position: absolute;
-  height: 100px;
+  height: 110px;
   width: 100px;
-  border-radius: 50%;
   background-color: rgb(4, 4, 44);
   display: flex;
   justify-content: center;
@@ -93,7 +92,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(5) {
-  background: url(../props/express.png);
+  background: url(../props/express3.png);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -166,6 +165,7 @@
   font-weight: 100;
   margin-top: 1px;
   font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
 }
 
 .scroll-down {

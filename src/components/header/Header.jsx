@@ -7,7 +7,7 @@ function Header() {
         <p>
           Hola <span>Soy</span>
         </p>
-        Federico
+        Federico Leiras
         <h2>Full Stack Developer con Orientación Front End</h2>
       </h3>
     </div>

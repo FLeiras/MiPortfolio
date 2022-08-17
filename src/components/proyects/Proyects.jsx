@@ -29,7 +29,9 @@ function Proyects() {
       </div>
 
       <div className="proyect proyect-2">
-        <div className="proyect-img2"></div>
+        <a href="https://countries-fleiras.vercel.app/" target="_blank">
+          <div className="proyect-img2"></div>
+        </a>
         <div className="proyect-info">
           <h1 className="name">Federico Leiras</h1>
           <h3 className="position">Desarrollo Full-Stack</h3>
@@ -47,15 +49,19 @@ function Proyects() {
       </div>
 
       <div className="proyect proyect-3">
-        <div className="proyect-img3"></div>
+        <a href="https://fedeweather-app.netlify.app/" target="_blank">
+          <div className="proyect-img3"></div>
+        </a>
         <div className="proyect-info">
           <h1 className="name">Federico Leiras</h1>
           <h3 className="position">Desarrollo Full-Stack</h3>
           <h4 className="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et
-            animi sunt consequatur totam, sit nisi accusantium repudiandae
-            fugit, reiciendis, dolorem omnis! Explicabo blanditiis magni,
-            dignissimos beatae optio consequatur omnis!
+            Primer sitio web creado solo por mi utilizando React/React Router,
+            JS, CSS. En el sitio el usuario puede consultar el clima actual de
+            la ciudad deseada. Cuenta con varias rutas una de ellas es "Sobre
+            Mi", donde podra encontrar información de contacto. Me gustaria
+            agregar que soy consciente de la falta de Responsive Web Design
+            (RWD), actualmente estoy en aprendizaje autodidacta de dicho campo.
           </h4>
           <a href="#contact" className="contact-member">
             <span>Contacto</span>

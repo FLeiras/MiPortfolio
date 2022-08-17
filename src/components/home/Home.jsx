@@ -39,10 +39,18 @@ function Home() {
       <h2>
         <span>Sobre Mi</span> <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error
-          odit labore saepe maiores, eos alias, tenetur voluptate quod aliquam
-          velit iste modi. At repellat accusamus voluptas laudantium sapiente
-          temporibus?
+          Desde muy chico me apasiona la programación, estudie 2 años la carrera
+          de Ing. en sistemas en la Universidad de Bs. As. Recorrí diversos
+          rubros laborales , vendedor, atención al cliente, empleado de
+          producción, telemarketer. Los últimos 15 años me desempeñe como
+          técnico informático con atención personalizada al cliente, fusionando
+          y aprovechando tanto, mi pasión por la tecnología como la buena
+          comunicación que adopte durante estos años. Hoy ya volcado al
+          desarrollo web busco una empresa donde pueda dar mis primeros pasos en
+          este fantástico mundo de la programación, te aseguro que si me das la
+          oportunidad ganaras una persona capaz, autodidacta, flexible,
+          responsable y curiosa. Buscador de soluciones optimizadas y
+          apasionado.
         </p>
       </h2>
 
