@@ -1,8 +1,10 @@
-import "./Home.css";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 import img from "../props/img2.png";
 import Button from "../button/Button";
 import { BsMouse } from "react-icons/bs";
 import { useState } from "react";
+import CV from "../props/Federico Leiras.pdf";
+import "./Home.css";
 
 function Home() {
   const [toogle, setToogle] = useState(false);
@@ -47,12 +49,17 @@ function Home() {
           y aprovechando tanto, mi pasión por la tecnología como la buena
           comunicación que adopte durante estos años. Hoy ya volcado al
           desarrollo web busco una empresa donde pueda dar mis primeros pasos en
-          este fantástico mundo de la programación, te aseguro que si me das la
-          oportunidad ganaras una persona capaz, autodidacta, flexible,
+          este fantástico mundo de la programación, puedo asegurar que si se me
+          da la oportunidad ganaras una persona capaz, autodidacta, flexible,
           responsable y curiosa. Buscador de soluciones optimizadas y
           apasionado.
         </p>
       </h2>
+      <a href={CV} download className="nes-btn is-primary">
+        <div className="cv-container">
+          <AiOutlineCloudDownload className="cv" /> Descarga mi CV
+        </div>
+      </a>
 
       <Button />
     </div>

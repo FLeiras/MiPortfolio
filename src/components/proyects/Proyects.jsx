@@ -13,14 +13,14 @@ function Proyects() {
           <h1 className="name">Federico Leiras</h1>
           <h3 className="position">Desarrollo Front-End</h3>
           <h4 className="about">
-            Henry´s App, es el proyecto con el cual me gradue del Bootcamp de
-            Soy Henry, fue desarrollada por quien les habla y 7 compañeros en el
-            lapso de 28 días. Henry´s App es un e-commerce pensado para
-            facilitar, agilizar y aumentar tanto la experiencia del usuario como
-            la de sus empleados y administrador. La misma cuenta con una
-            pasarella de pago para hacer mas segura y confiable la compra. Las
-            tecnologias utilizadas fueron, JavaScript, React.js, Redux,
-            PostgreSQL, Sequalize, Express, Boostrap, Material UI.
+            Henry´s App, es el proyecto final del Bootcamp de Soy Henry, fue
+            desarrollada por quien les habla y 7 compañeros en el lapso de 28
+            días. Henry´s App es un e-commerce pensado para facilitar, agilizar
+            y aumentar tanto la experiencia del usuario como la de empleados y
+            administradores. La misma cuenta con una pasarela de pago para hacer
+            mas segura y confiable la compra. Las tecnologias utilizadas fueron,
+            JavaScript, React.js, Redux, PostgreSQL, Sequalize, Express,
+            Boostrap, Material UI.
           </h4>
           <a href="#contact" className="contact-member">
             <span>Contacto</span>
