@@ -218,3 +218,119 @@
     letter-spacing: 2px;
   }
 }
+
+@media (max-width: 720px) {
+  .proyect-txt {
+    display: none;
+  }
+
+  .proyects-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+  }
+
+  .proyects-container .proyect {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.014);
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .proyects-container .proyect .proyect-img1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url(../props/proyecto1.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+    margin-bottom: 20px;
+    margin-left: -60px;
+    margin-top: -150px;
+  }
+
+  .proyects-container .proyect .proyect-img2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url(../props/proyecto2.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+  }
+
+  .proyects-container .proyect .proyect-img3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url(../props/proyecto3.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+  }
+
+  .proyects-container .proyect .proyect-info {
+    display: flex;
+    margin-left: 50px;
+    font-family: "Open Sans";
+    max-width: 50%;
+  }
+
+  .proyects-container .proyect .proyect-info .name {
+    display: none;
+  }
+
+  .proyects-container .proyect .proyect-info .position {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: -50px;
+  }
+
+  .proyects-container .proyect .proyect-info .about {
+    position: absolute;
+    display: flex;
+    font-weight: 100;
+    font-size: 14px;
+    width: 68vw;
+    margin-left: -169px;
+  }
+
+  .proyects-container .proyect .proyect-info .contact-member {
+    display: none;
+  }
+
+  .proyects-container .proyect .proyect-info .contact-member span {
+    text-transform: capitalize;
+  }
+
+  .proyects-container .proyect .proyect-info .contact-member:hover {
+    background: transparent;
+    border: 2px solid var(--color-sec-light);
+  }
+
+  .about {
+    letter-spacing: 2px;
+  }
+}

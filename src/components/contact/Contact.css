@@ -67,3 +67,20 @@
   margin-top: 3px;
   color: rgb(202, 202, 202);
 }
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 720px) {
+  .contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 30vh;
+    margin-top: 50px;
+    margin-left: 0;
+    padding: 30px;
+  }
+}
