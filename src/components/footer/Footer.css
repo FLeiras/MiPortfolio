@@ -90,3 +90,16 @@
     margin-left: 0;
   }
 }
+
+@media (max-width: 360px) {
+  .footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 30vh;
+    margin-top: -150px;
+    margin-bottom: 80px;
+  }
+}

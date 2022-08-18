@@ -88,6 +88,89 @@
   background-size: 60px;
 }
 
+@media (max-width: 360px) {
+  .quali-text {
+    font-size: 20px;
+    top: 10px;
+  }
+
+  .qualifications-container {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 30%;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 15px;
+    user-select: none;
+  }
+
+  .qualifications-container .qualification {
+    position: relative;
+    height: 150px;
+    min-width: 40%;
+    background: rgb(9, 6, 31);
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .qualifications-container .qualification h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  .qualifications-container .qualification .content.html {
+    background: url(../props/html.png);
+    background-position: center;
+    background-size: 80px;
+  }
+  .qualifications-container .qualification .content.css {
+    background: url(../props/css.png);
+    background-position: center;
+    background-size: 87px;
+  }
+  .qualifications-container .qualification .content.javascript {
+    background: url(../props/js.png);
+    background-position: center;
+    background-size: 95px;
+  }
+  .qualifications-container .qualification .content.node {
+    background: url(../props/node.png);
+    background-position: center;
+    background-size: 92px;
+  }
+  .qualifications-container .qualification .content.express {
+    background: url(../props/express.png);
+    background-position: center;
+    background-size: 100px;
+  }
+  .qualifications-container .qualification .content.react {
+    background: url(../props/react.png);
+    background-position: center;
+    background-size: 110px;
+  }
+  .qualifications-container .qualification .content.redux {
+    background: url(../props/redux.png);
+    background-position: center;
+    background-size: 92px;
+  }
+  .qualifications-container .qualification .content.postgresql {
+    background: url(../props/pos.png);
+    background-position: center;
+    background-size: 92px;
+  }
+}
+
 @media (max-width: 375px) {
   .quali-text {
     font-size: 20px;
