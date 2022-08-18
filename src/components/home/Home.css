@@ -210,3 +210,115 @@
   transform: rotate(-90deg);
   font-size: 100;
 }
+
+@media (max-width: 375px) {
+  .home-container .logo {
+    position: inherit;
+    margin-top: 0px;
+    height: 500px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    user-select: none;
+  }
+
+  .home-container h2 span {
+    font-size: 25px;
+    opacity: 0.8;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--color-pri);
+    font-family: "Open Sans", sans-serif;
+    margin-top: -100px;
+  }
+
+  .home-container h2 p {
+    font-size: 17px;
+    width: 95vw;
+    opacity: 1;
+    font-weight: 100;
+    margin-top: 1px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .home-container .logo .main-img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+
+  .home-container .logo .main-img.active {
+    display: none;
+  }
+
+  @keyframes spin {
+    to {
+      display: none;
+    }
+  }
+
+  .home-container .logo .circle {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(1) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(2) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(3) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(4) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(5) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(6) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(7) {
+    display: none;
+  }
+
+  .home-container .logo .main-img.active .circle:nth-child(8) {
+    display: none;
+  }
+
+  .home-container img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(108, 161, 197);
+    transform: translate(-200px);
+    opacity: 0;
+    animation: fade-in 1s ease 1 0.5s forwards;
+  }
+
+  @keyframes fade-in {
+    to {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+}

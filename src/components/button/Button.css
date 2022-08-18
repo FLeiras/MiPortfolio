@@ -115,3 +115,14 @@
   width: 0;
   left: 0;
 }
+
+@media (max-width: 375px) {
+  .button-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+    padding: 0;
+  }
+}

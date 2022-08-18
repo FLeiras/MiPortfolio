@@ -15,9 +15,7 @@ function Contact() {
           rel="noreferrer"
         >
           <AiOutlineWhatsApp className="icon" />
-          <h2>
-            whatsapp <span>+54 9 11-6606-7670</span>
-          </h2>
+          <h2>whatsapp</h2>
         </a>
         <a
           href="https://www.linkedin.com/in/fede-leiras/"

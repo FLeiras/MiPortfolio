@@ -10,3 +10,18 @@
   overflow-x: hidden;
   backdrop-filter: blur(20px);
 }
+
+@media (max-width: 375px) {
+  .about-container {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 80vh;
+    width: 90vw;
+    margin: 0;
+    padding: 50px;
+    overflow-x: hidden;
+    backdrop-filter: blur(20px);
+  }
+}
