@@ -71,8 +71,8 @@
 @media (max-width: 720px) {
   .navigation {
     position: absolute;
-    left: 90px;
-    top: 3%;
+    left: 180px;
+    top: 4%;
     background-color: rgba(0, 0, 0, 0.075);
     padding: 15px 10px;
     display: flex;

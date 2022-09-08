@@ -327,9 +327,9 @@
   .home-container {
     position: relative;
     min-height: 100vh;
-    width: 75vw;
+    width: 90vw;
     padding: 50px 40px;
-    margin-top: 7px;
+    margin-top: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -356,7 +356,7 @@
     border-bottom: 2px solid var(--color-pri);
     font-family: "Open Sans", sans-serif;
     margin-top: -100px;
-    margin-left: -200px;
+    margin-left: -100px;
   }
 
   .home-container h2 p {
@@ -367,7 +367,7 @@
     margin-top: 1px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
-    margin-left: -150px;
+    margin-left: -50px;
   }
 
   .home-container .logo .main-img {
@@ -482,7 +482,7 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    margin-left: -200px;
+    margin-left: -50px;
   }
 
   .cv {

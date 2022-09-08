@@ -60,6 +60,7 @@
 
 @media (max-width: 720px) {
   .header-container h3 {
+    position: absolute;
     display: flex;
     flex-direction: column;
     font-size: 28px;
@@ -67,8 +68,8 @@
     font-weight: 900;
     letter-spacing: 2px;
     font-family: "Poppins";
-    margin-top: 80px;
-    margin-left: -160px;
+    margin-top: 250px;
+    margin-left: -100px;
   }
 }
 
