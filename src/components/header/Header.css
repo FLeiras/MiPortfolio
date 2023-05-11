@@ -1,3 +1,13 @@
+.headerSpan {
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+}
+
 .header-container {
   position: relative;
   display: flex;
@@ -18,21 +28,11 @@
   }
 }
 
-.header-container h3 {
-  display: flex;
-  flex-direction: column;
-  font-size: 28px;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 2px;
-  font-family: "Poppins";
-}
-
-.header-container h3 p {
+.header-container span p {
   font-size: 25px;
 }
 
-.header-container h3 p span {
+.header-container .headerSpan p span {
   color: var(--color-pri);
   font-size: 25px;
 }
@@ -45,35 +45,7 @@
   letter-spacing: 1px;
 }
 
-@media (max-width: 375px) {
-  .header-container h3 {
-    display: flex;
-    flex-direction: column;
-    font-size: 28px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-family: "Poppins";
-    margin-top: 70px;
-  }
-}
-
-@media (max-width: 720px) {
-  .header-container h3 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    font-size: 28px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-family: "Poppins";
-    margin-top: 250px;
-    margin-left: -100px;
-  }
-}
-
-@media (max-width: 360px) {
+@media (min-width: 375px) {
   .header-container h3 {
     display: flex;
     flex-direction: column;
@@ -84,5 +56,32 @@
     font-family: "Poppins";
     margin-top: 70px;
     margin-left: -10px;
+  }
+}
+
+@media (min-width: 412px) {
+  .header-container h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: "Poppins";
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-container h3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: "Poppins";
+    margin: 3rem 0 0 -1rem;
   }
 }

@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 3rem;
   width: 60%;
   padding: 0;
 }
@@ -116,37 +116,11 @@
   left: 0;
 }
 
-@media (max-width: 375px) {
-  .button-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-    width: 100%;
-    padding: 0;
-  }
+@media (min-width: 375px) {
 }
 
-@media (max-width: 720px) {
-  .button-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-    width: 70%;
-    padding: 0;
-    margin-left: 80px;
-  }
+@media (min-width: 412px) {
 }
 
-@media (max-width: 360px) {
-  .button-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-    width: 100%;
-    padding: 0;
-    margin-left: 0;
-  }
+@media (min-width: 768px) {
 }

@@ -3,7 +3,7 @@ import img from "../props/img2.png";
 import Button from "../button/Button";
 import { BsMouse } from "react-icons/bs";
 import { useState } from "react";
-import CV from "../props/Federico Leiras CV.pdf";
+import CV from "../props/Federico-Leiras-CV.pdf";
 import "./Home.css";
 
 function Home() {
